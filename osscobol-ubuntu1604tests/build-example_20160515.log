@@ -1,0 +1,753 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether ln -s works... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -B
+checking how to recognize dependent libraries... pass_all
+./configure: line 5199: /usr/bin/file: No such file or directory
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking the maximum length of command line arguments... 1572864
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC
+checking if gcc PIC flag -fPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking whether the gcc linker (/usr/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for dlopen... no
+checking for dlopen in -ldl... yes
+checking whether a program can dlopen itself... yes
+checking whether a statically linked program can dlopen itself... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating libtool
+checking whether make sets $(MAKE)... (cached) yes
+checking for ANSI C header files... (cached) yes
+checking for stdint.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking for dlfcn.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for an ANSI C-conforming const... yes
+checking whether byte ordering is bigendian... no
+checking for size_t... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for inline... inline
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for vprintf... yes
+checking for _doprnt... no
+checking for memmove... yes
+checking for memset... yes
+checking for setlocale... yes
+checking for fcntl... yes
+checking for strerror... yes
+checking for strcasecmp... yes
+checking for strchr... yes
+checking for strrchr... yes
+checking for strdup... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for gettimeofday... yes
+checking for ld used by GCC... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking for iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for nl_langinfo and CODESET... yes
+checking for getopt_long_only... yes
+checking kpathsea/getopt.h usability... no
+checking kpathsea/getopt.h presence... no
+checking for kpathsea/getopt.h... no
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking gmp.h usability... yes
+checking gmp.h presence... yes
+checking for gmp.h... yes
+checking for __gmp_randinit in -lgmp... yes
+checking whether NLS is requested... yes
+checking for msgfmt... no
+checking for gmsgfmt... :
+checking for xgettext... no
+checking for msgmerge... no
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for initscr in -lncurses... no
+checking for initscr in -lpdcurses... no
+checking for initscr in -lcurses... no
+checking for Berkeley DB db.h version >= 4.1 ... yes (5.3)
+checking for BDB 4.1 compatibility in db ... yes
+checking for dlopen in -lc... no
+checking for dlopen in -ldl... (cached) yes
+configure: creating ./config.status
+config.status: creating bin/cob-config
+config.status: creating Makefile
+config.status: creating lib/Makefile
+config.status: creating libcob/Makefile
+config.status: creating cobc/Makefile
+config.status: creating bin/Makefile
+config.status: creating po/Makefile.in
+config.status: creating texi/Makefile
+config.status: creating config/Makefile
+config.status: creating copy/Makefile
+config.status: creating tests/atlocal
+config.status: creating tests/Makefile
+config.status: creating tests/cobol85/Makefile
+config.status: creating config.h
+config.status: executing tests/atconfig commands
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing chmod1 commands
+config.status: executing chmod2 commands
+config.status: executing chmod3 commands
+
+OpenCOBOL Configuration:
+
+  CC                   gcc
+  COB_CC               gcc
+  CFLAGS                -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k
+  COB_CFLAGS           -I/usr/local/include  
+  COB_EXTRA_FLAGS      
+  LDFLAGS              
+  COB_LDFLAGS          
+  COB_LIBS             -L${exec_prefix}/lib -lcob -lm -lgmp -ldb -ldl
+  COB_CONFIG_DIR       ${prefix}/share/opensource-cobol-1.5.0J/config
+  COB_COPY_DIR         ${prefix}/share/opensource-cobol-1.5.0J/copy
+  COB_LIBRARY_PATH     ${exec_prefix}/lib/opensource-cobol-1.5.0J
+  COB_MODULE_EXT       so
+  COB_SHARED_OPT       -shared
+  COB_PIC_FLAGS        -fPIC -DPIC
+  COB_EXPORT_DYN       -Wl,--export-dynamic
+  COB_STRIP_CMD        strip --strip-unneeded
+  Dynamic loading      System
+
+  Use gettext for international messages:      yes
+  Use Berkeley DB for ISAM I/O:                yes
+  Use enhanced Berkeley DB (>= 4.1)            yes
+  Use fcntl for file locking:                  yes
+  Use ncurses/pdcurses/curses for screen I/O:  no
+
+Creating defaults.h...
+make  all-recursive
+make[1]: Entering directory '/work/opensource-cobol-1.5.0J-utf8'
+Making all in lib
+make[2]: Entering directory '/work/opensource-cobol-1.5.0J-utf8/lib'
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT dummymac.o -MD -MP -MF ".deps/dummymac.Tpo" -c -o dummymac.o dummymac.c; \
+then mv -f ".deps/dummymac.Tpo" ".deps/dummymac.Po"; else rm -f ".deps/dummymac.Tpo"; exit 1; fi
+rm -f libsupport.a
+ar cru libsupport.a dummymac.o 
+ar: `u' modifier ignored since `D' is the default (see `U')
+ranlib libsupport.a
+make[2]: Leaving directory '/work/opensource-cobol-1.5.0J-utf8/lib'
+Making all in libcob
+make[2]: Entering directory '/work/opensource-cobol-1.5.0J-utf8/libcob'
+if /bin/bash ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I..      -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-common.lo -MD -MP -MF ".deps/libcob_la-common.Tpo" -c -o libcob_la-common.lo `test -f 'common.c' || echo './'`common.c; \
+then mv -f ".deps/libcob_la-common.Tpo" ".deps/libcob_la-common.Plo"; else rm -f ".deps/libcob_la-common.Tpo"; exit 1; fi
+mkdir .libs
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-common.lo -MD -MP -MF .deps/libcob_la-common.Tpo -c common.c  -fPIC -DPIC -o .libs/libcob_la-common.o
+common.c: In function 'cobcommandline':
+common.c:2097:7: warning: variable 'sflags' set but not used [-Wunused-but-set-variable]
+  int  sflags;
+       ^
+common.c:2096:9: warning: variable 'spname' set but not used [-Wunused-but-set-variable]
+  char  *spname;
+         ^
+common.c:2095:10: warning: variable 'spenvp' set but not used [-Wunused-but-set-variable]
+  char  **spenvp;
+          ^
+common.c: In function 'cob_acuw_calledby':
+common.c:2688:24: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+    called_program_name = (const char *)cob_current_module->next->program_id;
+                        ^
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-common.lo -MD -MP -MF .deps/libcob_la-common.Tpo -c common.c -o libcob_la-common.o >/dev/null 2>&1
+if /bin/bash ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I..      -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-call.lo -MD -MP -MF ".deps/libcob_la-call.Tpo" -c -o libcob_la-call.lo `test -f 'call.c' || echo './'`call.c; \
+then mv -f ".deps/libcob_la-call.Tpo" ".deps/libcob_la-call.Plo"; else rm -f ".deps/libcob_la-call.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-call.lo -MD -MP -MF .deps/libcob_la-call.Tpo -c call.c  -fPIC -DPIC -o .libs/libcob_la-call.o
+call.c: In function 'cobsavenv2':
+call.c:678:6: warning: variable 'jtemp' set but not used [-Wunused-but-set-variable]
+  int jtemp;
+      ^
+call.c: At top level:
+call.c:701:1: warning: no previous prototype for 'init_call_stack_list' [-Wmissing-prototypes]
+ init_call_stack_list ()
+ ^
+call.c:711:1: warning: no previous prototype for 'cob_create_call_stack_list' [-Wmissing-prototypes]
+ cob_create_call_stack_list (char *name)
+ ^
+call.c: In function 'cob_create_call_stack_list':
+call.c:717:10: warning: passing argument 1 of 'strcpy' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  strcpy (new_list->name, name);
+          ^
+In file included from /usr/include/features.h:367:0,
+                 from /usr/include/stdio.h:27,
+                 from call.c:25:
+/usr/include/x86_64-linux-gnu/bits/string3.h:108:1: note: expected 'char * restrict' but argument is of type 'const char *'
+ __NTH (strcpy (char *__restrict __dest, const char *__restrict __src))
+ ^
+call.c: At top level:
+call.c:765:1: warning: no previous prototype for 'cob_cancel_call_stack_list' [-Wmissing-prototypes]
+ cob_cancel_call_stack_list (struct call_stack_list *p)
+ ^
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-call.lo -MD -MP -MF .deps/libcob_la-call.Tpo -c call.c -o libcob_la-call.o >/dev/null 2>&1
+if /bin/bash ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I..      -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-strings.lo -MD -MP -MF ".deps/libcob_la-strings.Tpo" -c -o libcob_la-strings.lo `test -f 'strings.c' || echo './'`strings.c; \
+then mv -f ".deps/libcob_la-strings.Tpo" ".deps/libcob_la-strings.Plo"; else rm -f ".deps/libcob_la-strings.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-strings.lo -MD -MP -MF .deps/libcob_la-strings.Tpo -c strings.c  -fPIC -DPIC -o .libs/libcob_la-strings.o
+strings.c: In function 'cob_inspect_before':
+strings.c:266:7: warning: variable 'sign' set but not used [-Wunused-but-set-variable]
+  int  sign;
+       ^
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-strings.lo -MD -MP -MF .deps/libcob_la-strings.Tpo -c strings.c -o libcob_la-strings.o >/dev/null 2>&1
+if /bin/bash ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I..      -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-move.lo -MD -MP -MF ".deps/libcob_la-move.Tpo" -c -o libcob_la-move.lo `test -f 'move.c' || echo './'`move.c; \
+then mv -f ".deps/libcob_la-move.Tpo" ".deps/libcob_la-move.Plo"; else rm -f ".deps/libcob_la-move.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-move.lo -MD -MP -MF .deps/libcob_la-move.Tpo -c move.c  -fPIC -DPIC -o .libs/libcob_la-move.o
+move.c: In function 'cob_move_fp_to_display':
+move.c:549:10: warning: variable 'frac' set but not used [-Wunused-but-set-variable]
+  double  frac;
+          ^
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-move.lo -MD -MP -MF .deps/libcob_la-move.Tpo -c move.c -o libcob_la-move.o >/dev/null 2>&1
+if /bin/bash ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I..      -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-numeric.lo -MD -MP -MF ".deps/libcob_la-numeric.Tpo" -c -o libcob_la-numeric.lo `test -f 'numeric.c' || echo './'`numeric.c; \
+then mv -f ".deps/libcob_la-numeric.Tpo" ".deps/libcob_la-numeric.Plo"; else rm -f ".deps/libcob_la-numeric.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-numeric.lo -MD -MP -MF .deps/libcob_la-numeric.Tpo -c numeric.c  -fPIC -DPIC -o .libs/libcob_la-numeric.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-numeric.lo -MD -MP -MF .deps/libcob_la-numeric.Tpo -c numeric.c -o libcob_la-numeric.o >/dev/null 2>&1
+if /bin/bash ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I..      -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-intrinsic.lo -MD -MP -MF ".deps/libcob_la-intrinsic.Tpo" -c -o libcob_la-intrinsic.lo `test -f 'intrinsic.c' || echo './'`intrinsic.c; \
+then mv -f ".deps/libcob_la-intrinsic.Tpo" ".deps/libcob_la-intrinsic.Plo"; else rm -f ".deps/libcob_la-intrinsic.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-intrinsic.lo -MD -MP -MF .deps/libcob_la-intrinsic.Tpo -c intrinsic.c  -fPIC -DPIC -o .libs/libcob_la-intrinsic.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-intrinsic.lo -MD -MP -MF .deps/libcob_la-intrinsic.Tpo -c intrinsic.c -o libcob_la-intrinsic.o >/dev/null 2>&1
+if /bin/bash ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I..      -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-fileio.lo -MD -MP -MF ".deps/libcob_la-fileio.Tpo" -c -o libcob_la-fileio.lo `test -f 'fileio.c' || echo './'`fileio.c; \
+then mv -f ".deps/libcob_la-fileio.Tpo" ".deps/libcob_la-fileio.Plo"; else rm -f ".deps/libcob_la-fileio.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-fileio.lo -MD -MP -MF .deps/libcob_la-fileio.Tpo -c fileio.c  -fPIC -DPIC -o .libs/libcob_la-fileio.o
+fileio.c:5485:1: warning: no previous prototype for 'cob_listdir_open' [-Wmissing-prototypes]
+ cob_listdir_open (cob_field *f_dirname, cob_field *f_pattern)
+ ^
+fileio.c: In function 'cob_listdir_open':
+fileio.c:5518:9: warning: return makes integer from pointer without a cast [-Wint-conversion]
+  return listdir_handle;
+         ^
+fileio.c: At top level:
+fileio.c:5522:1: warning: no previous prototype for 'cob_listdir_next' [-Wmissing-prototypes]
+ cob_listdir_next (cob_field *f_handle, cob_field *f_filename)
+ ^
+fileio.c: In function 'cob_listdir_next':
+fileio.c:5533:12: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   filename = " ";
+            ^
+fileio.c: At top level:
+fileio.c:5554:1: warning: no previous prototype for 'cob_listdir_close' [-Wmissing-prototypes]
+ cob_listdir_close (cob_field *f_handle)
+ ^
+fileio.c: In function 'indexed_read_next':
+fileio.c:3142:33: warning: 'dupno' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     p->last_dupno[p->key_index] = dupno;
+                                 ^
+fileio.c: In function 'indexed_start':
+fileio.c:2371:33: warning: 'dupno' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     p->last_dupno[p->key_index] = dupno;
+                                 ^
+fileio.c:2223:16: note: 'dupno' was declared here
+  unsigned int  dupno;
+                ^
+fileio.c: In function 'indexed_read':
+fileio.c:2371:33: warning: 'dupno' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     p->last_dupno[p->key_index] = dupno;
+                                 ^
+fileio.c:2223:16: note: 'dupno' was declared here
+  unsigned int  dupno;
+                ^
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-fileio.lo -MD -MP -MF .deps/libcob_la-fileio.Tpo -c fileio.c -o libcob_la-fileio.o >/dev/null 2>&1
+if /bin/bash ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I..      -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-termio.lo -MD -MP -MF ".deps/libcob_la-termio.Tpo" -c -o libcob_la-termio.lo `test -f 'termio.c' || echo './'`termio.c; \
+then mv -f ".deps/libcob_la-termio.Tpo" ".deps/libcob_la-termio.Plo"; else rm -f ".deps/libcob_la-termio.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-termio.lo -MD -MP -MF .deps/libcob_la-termio.Tpo -c termio.c  -fPIC -DPIC -o .libs/libcob_la-termio.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-termio.lo -MD -MP -MF .deps/libcob_la-termio.Tpo -c termio.c -o libcob_la-termio.o >/dev/null 2>&1
+if /bin/bash ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I..      -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-screenio.lo -MD -MP -MF ".deps/libcob_la-screenio.Tpo" -c -o libcob_la-screenio.lo `test -f 'screenio.c' || echo './'`screenio.c; \
+then mv -f ".deps/libcob_la-screenio.Tpo" ".deps/libcob_la-screenio.Plo"; else rm -f ".deps/libcob_la-screenio.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-screenio.lo -MD -MP -MF .deps/libcob_la-screenio.Tpo -c screenio.c  -fPIC -DPIC -o .libs/libcob_la-screenio.o
+screenio.c: In function 'CBL_OC_KEISEN':
+screenio.c:1794:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+screenio.c: In function 'CBL_OC_ATTRIBUTE':
+screenio.c:1799:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT libcob_la-screenio.lo -MD -MP -MF .deps/libcob_la-screenio.Tpo -c screenio.c -o libcob_la-screenio.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CC --mode=link gcc  -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -Wl,--export-dynamic  -o libcob.la -rpath /usr/local/lib -version-info 1:0:0 -no-undefined libcob_la-common.lo libcob_la-call.lo libcob_la-strings.lo libcob_la-move.lo libcob_la-numeric.lo libcob_la-intrinsic.lo libcob_la-fileio.lo libcob_la-termio.lo libcob_la-screenio.lo -lm -lgmp -ldb -ldl 
+gcc -shared  .libs/libcob_la-common.o .libs/libcob_la-call.o .libs/libcob_la-strings.o .libs/libcob_la-move.o .libs/libcob_la-numeric.o .libs/libcob_la-intrinsic.o .libs/libcob_la-fileio.o .libs/libcob_la-termio.o .libs/libcob_la-screenio.o  -lm -lgmp -ldb -ldl  -Wl,--export-dynamic -Wl,-soname -Wl,libcob.so.1 -o .libs/libcob.so.1.0.0
+(cd .libs && rm -f libcob.so.1 && ln -s libcob.so.1.0.0 libcob.so.1)
+(cd .libs && rm -f libcob.so && ln -s libcob.so.1.0.0 libcob.so)
+ar cru .libs/libcob.a  libcob_la-common.o libcob_la-call.o libcob_la-strings.o libcob_la-move.o libcob_la-numeric.o libcob_la-intrinsic.o libcob_la-fileio.o libcob_la-termio.o libcob_la-screenio.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+ranlib .libs/libcob.a
+creating libcob.la
+(cd .libs && rm -f libcob.la && ln -s ../libcob.la libcob.la)
+make[2]: Leaving directory '/work/opensource-cobol-1.5.0J-utf8/libcob'
+Making all in cobc
+make[2]: Entering directory '/work/opensource-cobol-1.5.0J-utf8/cobc'
+make  all-am
+make[3]: Entering directory '/work/opensource-cobol-1.5.0J-utf8/cobc'
+if gcc -DHAVE_CONFIG_H -I. -I. -I..    -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT cobc-cobc.o -MD -MP -MF ".deps/cobc-cobc.Tpo" -c -o cobc-cobc.o `test -f 'cobc.c' || echo './'`cobc.c; \
+then mv -f ".deps/cobc-cobc.Tpo" ".deps/cobc-cobc.Po"; else rm -f ".deps/cobc-cobc.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..    -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT cobc-config.o -MD -MP -MF ".deps/cobc-config.Tpo" -c -o cobc-config.o `test -f 'config.c' || echo './'`config.c; \
+then mv -f ".deps/cobc-config.Tpo" ".deps/cobc-config.Po"; else rm -f ".deps/cobc-config.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..    -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT cobc-tree.o -MD -MP -MF ".deps/cobc-tree.Tpo" -c -o cobc-tree.o `test -f 'tree.c' || echo './'`tree.c; \
+then mv -f ".deps/cobc-tree.Tpo" ".deps/cobc-tree.Po"; else rm -f ".deps/cobc-tree.Tpo"; exit 1; fi
+tree.c: In function 'cb_build_picture':
+tree.c:1271:8: warning: variable 'flg' set but not used [-Wunused-but-set-variable]
+  int   flg = 0;
+        ^
+if gcc -DHAVE_CONFIG_H -I. -I. -I..    -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT cobc-reserved.o -MD -MP -MF ".deps/cobc-reserved.Tpo" -c -o cobc-reserved.o `test -f 'reserved.c' || echo './'`reserved.c; \
+then mv -f ".deps/cobc-reserved.Tpo" ".deps/cobc-reserved.Po"; else rm -f ".deps/cobc-reserved.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..    -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT cobc-error.o -MD -MP -MF ".deps/cobc-error.Tpo" -c -o cobc-error.o `test -f 'error.c' || echo './'`error.c; \
+then mv -f ".deps/cobc-error.Tpo" ".deps/cobc-error.Po"; else rm -f ".deps/cobc-error.Tpo"; exit 1; fi
+error.c: In function 'print_error':
+error.c:109:4: warning: format not a string literal and no format arguments [-Wformat-security]
+    snprintf (errmsgbuff, COB_NORMAL_BUFF, fmt);
+    ^
+error.c:109:4: warning: format not a string literal and no format arguments [-Wformat-security]
+error.c: In function 'ambiguous_error':
+error.c:332:4: warning: format not a string literal and no format arguments [-Wformat-security]
+    cb_error_x (y, errnamebuff);
+    ^
+if gcc -DHAVE_CONFIG_H -I. -I. -I..    -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT cobc-parser.o -MD -MP -MF ".deps/cobc-parser.Tpo" -c -o cobc-parser.o `test -f 'parser.c' || echo './'`parser.c; \
+then mv -f ".deps/cobc-parser.Tpo" ".deps/cobc-parser.Po"; else rm -f ".deps/cobc-parser.Tpo"; exit 1; fi
+parser.c: In function 'yyparse':
+parser.c:14940:6: warning: format not a string literal and no format arguments [-Wformat-security]
+      yyerror (yymsg);
+      ^
+if gcc -DHAVE_CONFIG_H -I. -I. -I..    -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT cobc-scanner.o -MD -MP -MF ".deps/cobc-scanner.Tpo" -c -o cobc-scanner.o `test -f 'scanner.c' || echo './'`scanner.c; \
+then mv -f ".deps/cobc-scanner.Tpo" ".deps/cobc-scanner.Po"; else rm -f ".deps/cobc-scanner.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..    -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT cobc-field.o -MD -MP -MF ".deps/cobc-field.Tpo" -c -o cobc-field.o `test -f 'field.c' || echo './'`field.c; \
+then mv -f ".deps/cobc-field.Tpo" ".deps/cobc-field.Po"; else rm -f ".deps/cobc-field.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..    -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT cobc-typeck.o -MD -MP -MF ".deps/cobc-typeck.Tpo" -c -o cobc-typeck.o `test -f 'typeck.c' || echo './'`typeck.c; \
+then mv -f ".deps/cobc-typeck.Tpo" ".deps/cobc-typeck.Po"; else rm -f ".deps/cobc-typeck.Tpo"; exit 1; fi
+typeck.c: In function 'cb_reference_type_check':
+typeck.c:831:23: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  struct cb_reference *r;
+                       ^
+typeck.c: In function 'move_error':
+typeck.c:4676:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   cb_warning_x (loc, msg);
+   ^
+typeck.c:4680:4: warning: format not a string literal and no format arguments [-Wformat-security]
+    cb_warning_x (loc, msg);
+    ^
+if gcc -DHAVE_CONFIG_H -I. -I. -I..    -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT cobc-codegen.o -MD -MP -MF ".deps/cobc-codegen.Tpo" -c -o cobc-codegen.o `test -f 'codegen.c' || echo './'`codegen.c; \
+then mv -f ".deps/cobc-codegen.Tpo" ".deps/cobc-codegen.Po"; else rm -f ".deps/cobc-codegen.Tpo"; exit 1; fi
+codegen.c: In function 'output_indent':
+codegen.c:286:2: warning: format not a string literal and no format arguments [-Wformat-security]
+  output_line (str);
+  ^
+codegen.c: In function 'output_param':
+codegen.c:998:8: warning: variable 'extrefs' set but not used [-Wunused-but-set-variable]
+  int   extrefs;
+        ^
+if gcc -DHAVE_CONFIG_H -I. -I. -I..    -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT cobc-ppparse.o -MD -MP -MF ".deps/cobc-ppparse.Tpo" -c -o cobc-ppparse.o `test -f 'ppparse.c' || echo './'`ppparse.c; \
+then mv -f ".deps/cobc-ppparse.Tpo" ".deps/cobc-ppparse.Po"; else rm -f ".deps/cobc-ppparse.Tpo"; exit 1; fi
+ppparse.c: In function 'ppparse':
+ppparse.c:1944:6: warning: format not a string literal and no format arguments [-Wformat-security]
+      yyerror (yymsg);
+      ^
+if gcc -DHAVE_CONFIG_H -I. -I. -I..    -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT cobc-pplex.o -MD -MP -MF ".deps/cobc-pplex.Tpo" -c -o cobc-pplex.o `test -f 'pplex.c' || echo './'`pplex.c; \
+then mv -f ".deps/cobc-pplex.Tpo" ".deps/cobc-pplex.Po"; else rm -f ".deps/cobc-pplex.Tpo"; exit 1; fi
+pplex.l: In function 'check_dollar_directive':
+pplex.l:752:8: warning: variable 'n' set but not used [-Wunused-but-set-variable]
+  char   sbuff[5][256];
+        ^
+/bin/bash ../libtool --tag=CC --mode=link gcc  -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k   -o cobc  cobc-cobc.o cobc-config.o cobc-tree.o cobc-reserved.o cobc-error.o cobc-parser.o cobc-scanner.o cobc-field.o cobc-typeck.o cobc-codegen.o cobc-ppparse.o cobc-pplex.o  ../lib/libsupport.a 
+mkdir .libs
+gcc -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -o cobc cobc-cobc.o cobc-config.o cobc-tree.o cobc-reserved.o cobc-error.o cobc-parser.o cobc-scanner.o cobc-field.o cobc-typeck.o cobc-codegen.o cobc-ppparse.o cobc-pplex.o  ../lib/libsupport.a  
+make[3]: Leaving directory '/work/opensource-cobol-1.5.0J-utf8/cobc'
+make[2]: Leaving directory '/work/opensource-cobol-1.5.0J-utf8/cobc'
+Making all in bin
+make[2]: Entering directory '/work/opensource-cobol-1.5.0J-utf8/bin'
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -I.. -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -MT cobcrun-cobcrun.o -MD -MP -MF ".deps/cobcrun-cobcrun.Tpo" -c -o cobcrun-cobcrun.o `test -f 'cobcrun.c' || echo './'`cobcrun.c; \
+then mv -f ".deps/cobcrun-cobcrun.Tpo" ".deps/cobcrun-cobcrun.Po"; else rm -f ".deps/cobcrun-cobcrun.Tpo"; exit 1; fi
+/bin/bash ../libtool --tag=CC --mode=link gcc  -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -Wl,--export-dynamic  -o cobcrun  cobcrun-cobcrun.o ../libcob/libcob.la ../lib/libsupport.a 
+mkdir .libs
+gcc -O2 -finline-functions -fsigned-char -Wall -Wwrite-strings -Wmissing-prototypes -Wno-format-y2k -Wl,--export-dynamic -o .libs/cobcrun cobcrun-cobcrun.o  ../libcob/.libs/libcob.so -lm -lgmp -ldb -ldl ../lib/libsupport.a 
+creating cobcrun
+make[2]: Leaving directory '/work/opensource-cobol-1.5.0J-utf8/bin'
+Making all in config
+make[2]: Entering directory '/work/opensource-cobol-1.5.0J-utf8/config'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/work/opensource-cobol-1.5.0J-utf8/config'
+Making all in copy
+make[2]: Entering directory '/work/opensource-cobol-1.5.0J-utf8/copy'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/work/opensource-cobol-1.5.0J-utf8/copy'
+Making all in po
+make[2]: Entering directory '/work/opensource-cobol-1.5.0J-utf8/po'
+make opensource-cobol-1.5.0J.pot-update
+make[3]: Entering directory '/work/opensource-cobol-1.5.0J-utf8/po'
+sed -e '/^#/d' remove-potcdate.sin > t-remove-potcdate.sed
+mv t-remove-potcdate.sed remove-potcdate.sed
+: --default-domain=opensource-cobol-1.5.0J --directory=.. \
+  --add-comments=TRANSLATORS: --language=C --keyword=_ --keyword=N_ \
+  --files-from=./POTFILES.in \
+  --copyright-holder='Keisuke Nishida' \
+  --msgid-bugs-address='open-cobol-list@lists.sourceforge.net'
+test ! -f opensource-cobol-1.5.0J.po || { \
+  if test -f ./opensource-cobol-1.5.0J.pot; then \
+    sed -f remove-potcdate.sed < ./opensource-cobol-1.5.0J.pot > opensource-cobol-1.5.0J.1po && \
+    sed -f remove-potcdate.sed < opensource-cobol-1.5.0J.po > opensource-cobol-1.5.0J.2po && \
+    if cmp opensource-cobol-1.5.0J.1po opensource-cobol-1.5.0J.2po >/dev/null 2>&1; then \
+      rm -f opensource-cobol-1.5.0J.1po opensource-cobol-1.5.0J.2po opensource-cobol-1.5.0J.po; \
+    else \
+      rm -f opensource-cobol-1.5.0J.1po opensource-cobol-1.5.0J.2po ./opensource-cobol-1.5.0J.pot && \
+      mv opensource-cobol-1.5.0J.po ./opensource-cobol-1.5.0J.pot; \
+    fi; \
+  else \
+    mv opensource-cobol-1.5.0J.po ./opensource-cobol-1.5.0J.pot; \
+  fi; \
+}
+make[3]: Leaving directory '/work/opensource-cobol-1.5.0J-utf8/po'
+test -z "ja.gmo" || make ja.gmo
+make[3]: Entering directory '/work/opensource-cobol-1.5.0J-utf8/po'
+make opensource-cobol-1.5.0J.pot-update
+make[4]: Entering directory '/work/opensource-cobol-1.5.0J-utf8/po'
+: --default-domain=opensource-cobol-1.5.0J --directory=.. \
+  --add-comments=TRANSLATORS: --language=C --keyword=_ --keyword=N_ \
+  --files-from=./POTFILES.in \
+  --copyright-holder='Keisuke Nishida' \
+  --msgid-bugs-address='open-cobol-list@lists.sourceforge.net'
+test ! -f opensource-cobol-1.5.0J.po || { \
+  if test -f ./opensource-cobol-1.5.0J.pot; then \
+    sed -f remove-potcdate.sed < ./opensource-cobol-1.5.0J.pot > opensource-cobol-1.5.0J.1po && \
+    sed -f remove-potcdate.sed < opensource-cobol-1.5.0J.po > opensource-cobol-1.5.0J.2po && \
+    if cmp opensource-cobol-1.5.0J.1po opensource-cobol-1.5.0J.2po >/dev/null 2>&1; then \
+      rm -f opensource-cobol-1.5.0J.1po opensource-cobol-1.5.0J.2po opensource-cobol-1.5.0J.po; \
+    else \
+      rm -f opensource-cobol-1.5.0J.1po opensource-cobol-1.5.0J.2po ./opensource-cobol-1.5.0J.pot && \
+      mv opensource-cobol-1.5.0J.po ./opensource-cobol-1.5.0J.pot; \
+    fi; \
+  else \
+    mv opensource-cobol-1.5.0J.po ./opensource-cobol-1.5.0J.pot; \
+  fi; \
+}
+make[4]: Leaving directory '/work/opensource-cobol-1.5.0J-utf8/po'
+: --update ja.po opensource-cobol-1.5.0J.pot
+make[3]: Leaving directory '/work/opensource-cobol-1.5.0J-utf8/po'
+touch stamp-po
+make[2]: Leaving directory '/work/opensource-cobol-1.5.0J-utf8/po'
+Making all in texi
+make[2]: Entering directory '/work/opensource-cobol-1.5.0J-utf8/texi'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/work/opensource-cobol-1.5.0J-utf8/texi'
+Making all in tests
+make[2]: Entering directory '/work/opensource-cobol-1.5.0J-utf8/tests'
+Making all in cobol85
+make[3]: Entering directory '/work/opensource-cobol-1.5.0J-utf8/tests/cobol85'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/work/opensource-cobol-1.5.0J-utf8/tests/cobol85'
+make[3]: Entering directory '/work/opensource-cobol-1.5.0J-utf8/tests'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/work/opensource-cobol-1.5.0J-utf8/tests'
+make[2]: Leaving directory '/work/opensource-cobol-1.5.0J-utf8/tests'
+make[2]: Entering directory '/work/opensource-cobol-1.5.0J-utf8'
+make[2]: Leaving directory '/work/opensource-cobol-1.5.0J-utf8'
+make[1]: Leaving directory '/work/opensource-cobol-1.5.0J-utf8'
+## ------------------------------------ ##
+## OpenCOBOL 1.1 test suite: Run Tests. ##
+## ------------------------------------ ##
+  1: DISPLAY literals                                ok
+  2: DISPLAY literals, DECIMAL-POINT is COMMA        ok
+  3: Hexadecimal literal                             ok
+  4: DISPLAY data items with VALUE clause            ok
+  5: DISPLAY data items with MOVE statement          ok
+  6: GLOBAL at same level                            ok
+  7: GLOBAL at lower level                           ok
+  8: non-numeric subscript                           ok
+  9: The range of subscripts                         ok
+ 10: Subscript out of bounds (1)                     FAILED (subscripts.at:112)
+ 11: Subscript out of bounds (2)                     FAILED (subscripts.at:136)
+ 12: Subscript out of bounds (3-1)                   FAILED (subscripts.at:159)
+ 13: Subscript out of bounds (3-2)                   FAILED (subscripts.at:182)
+ 14: Subscript out of bounds (3-3)                   FAILED (subscripts.at:205)
+ 15: Subscript out of bounds (3-4)                   FAILED (subscripts.at:228)
+ 16: Value of DEPENDING ON N out of bounds (lower)   FAILED (subscripts.at:251)
+ 17: Value of DEPENDING ON N out of bounds (upper)   FAILED (subscripts.at:275)
+ 18: Subscript bounds with ODO (lower)               ok
+ 19: Subscript bounds with ODO (upper)               ok
+ 20: Subscript bounds with ODO                       FAILED (subscripts.at:345)
+ 21: Subscript by arithmetic expression              ok
+ 22: Subscript out of bounds in MOVE (1)             FAILED (subscripts.at:394)
+ 23: Subscript out of bounds in MOVE (2)             FAILED (subscripts.at:418)
+ 24: Separate sign positions                         ok
+ 25: Static reference modification                   ok
+ 26: Dynamic reference modification                  FAILED (ref-mod.at:111)
+ 27: Static out of bounds                            ok
+ 28: Offset underflow                                FAILED (ref-mod.at:165)
+ 29: Offset overflow                                 FAILED (ref-mod.at:187)
+ 30: Length underflow                                FAILED (ref-mod.at:209)
+ 31: Length overflow                                 FAILED (ref-mod.at:231)
+ 32: Offset out of bounds in MOVE (1)                FAILED (ref-mod.at:256)
+ 33: Offset out of bounds in MOVE (2)                FAILED (ref-mod.at:279)
+ 34: ACCEPT                                          ok
+ 35: INITIALIZE group entry with OCCURS              ok
+ 36: INITIALIZE OCCURS with numeric edited           ok
+ 37: INITIALIZE complex group (1)                    ok
+ 38: INITIALIZE complex group (2)                    ok
+ 39: INITIALIZE with REDEFINES                       ok
+ 40: Source file not found                           ok
+ 41: Comma separator without space                   ok
+ 42: LOCAL-STORAGE                                   ok
+ 43: EXTERNAL data item                              ok
+ 44: EXTERNAL AS data item                           ok
+ 45: cobcrun validation                              ok
+ 46: MOVE to itself                                  ok
+ 47: MOVE with refmod                                ok
+ 48: MOVE with refmod (variable)                     FAILED (misc.at:278)
+ 49: MOVE with group refmod                          ok
+ 50: MOVE indexes                                    ok
+ 51: MOVE X'00'                                      ok
+ 52: Level 01 subscripts                             ok
+ 53: Class check with reference modification         ok
+ 54: Index and parenthesized expression              ok
+ 55: String concatenation                            ok
+ 56: Alphanumeric and binary numeric                 FAILED (misc.at:473)
+ 57: Dynamic call with static linking                ok
+ 58: CALL m1. CALL m2. CALL m1.                      ok
+ 59: CANCEL ALL                                      ok
+ 60: CALL binary literal parameter/LENGTH OF - so    FAILED (misc.at:647)
+ 61: CALL binary literal parameter/LENGTH OF - DLL   skipped (misc.at:664)
+ 62: INSPECT REPLACING LEADING ZEROS BY SPACES       ok
+ 63: INSPECT: No repeat conversion check             ok
+ 64: INSPECT CONVERTING spaces                       ok
+ 65: INSPECT CONVERTING different length             ok
+ 66: INSPECT: REPLACING figurative constant          ok
+ 67: INSPECT: TALLYING BEFORE                        ok
+ 68: INSPECT: TALLYING AFTER                         ok
+ 69: INSPECT REPLACING TRAILING ZEROS BY SPACES      ok
+ 70: INSPECT REPLACING complex                       ok
+ 71: SWITCHES                                        ok
+ 72: Nested PERFORM                                  ok
+ 73: EXIT PERFORM                                    ok
+ 74: EXIT PERFORM CYCLE                              ok
+ 75: EXIT PARAGRAPH                                  ok
+ 76: EXIT SECTION                                    ok
+ 77: 88 with FILLER                                  ok
+ 78: Non-overflow after overflow                     ok
+ 79: PERFORM ... CONTINUE                            ok
+ 80: STRING with subscript reference                 ok
+ 81: UNSTRING DELIMITED ALL LOW-VALUE                ok
+ 82: READ INTO AT-END sequence                       FAILED (misc.at:1278)
+ 83: First READ on empty SEQUENTIAL INDEXED file     FAILED (misc.at:1315)
+ 84: REWRITE a RELATIVE file with RANDOM access      FAILED (misc.at:1366)
+ 85: SORT: table sort                                ok
+ 86: SORT: EBCDIC table sort                         ok
+ 87: SORT nonexistent file                           FAILED (misc.at:1483)
+ 88: PIC ZZZ-, ZZZ+                                  ok
+ 89: Larger REDEFINES lengths                        ok
+ 90: PERFORM type OSVS                               FAILED (misc.at:1600)
+ 91: Sticky LINKAGE                                  ok
+ 92: COB_PRE_LOAD test                               ok
+ 93: COB_LOAD_CASE=UPPER test                        ok
+ 94: 88 level with FALSE IS clause                   ok
+ 95: ALLOCATE/FREE with BASED item                   ok
+ 96: INITIZIALIZE with reference modification        ok
+ 97: CALL with OMITTED parameter                     ok
+ 98: ANY LENGTH                                      ok
+ 99: READ - KEY ignored with sequential READ         ok
+100: SORT - missing fcd in variable-length WRITE     FAILED (misc.at:1972)
+101: READ - missing fcd in variable-length WRITE     FAILED (misc.at:2026)
+102: COMP-5                                          FAILED (extensions.at:60)
+103: Hexadecimal numeric literal                     ok
+104: Semi-parenthesized condition                    ok
+105: ADDRESS OF                                      ok
+106: LENGTH OF                                       ok
+107: WHEN-COMPILED                                   ok
+108: Complex OCCURS DEPENDING ON                     FAILED (extensions.at:262)
+109: MOVE NON-INTEGER TO ALPHA-NUMERIC               ok
+110: CALL USING file-name - so                       FAILED (extensions.at:398)
+111: CALL USING file-name - dll                      skipped (extensions.at:405)
+112: CALL unusual PROGRAM-ID.                        ok
+113: Case independent PROGRAM-ID                     ok
+114: PROGRAM-ID AS clause                            ok
+115: Quoted PROGRAM-ID                               ok
+116: ASSIGN MF                                       FAILED (extensions.at:611)
+117: ASSIGN IBM                                      FAILED (extensions.at:640)
+118: ASSIGN mapping                                  FAILED (extensions.at:670)
+119: ASSIGN expansion                                FAILED (extensions.at:706)
+120: ASSIGN with COB_FILE_PATH                       FAILED (extensions.at:736)
+121: NUMBER-OF-CALL-PARAMETERS                       ok
+122: PROCEDURE DIVISION USING BY ...                 ok
+123: PROCEDURE DIVISION CHAINING ...                 ok
+124: STOP RUN RETURNING                              ok
+125: ENTRY                                           ok
+126: LINE SEQUENTIAL write                           FAILED (extensions.at:969)
+127: LINE SEQUENTIAL read                            FAILED (extensions.at:1029)
+128: ASSIGN to KEYBOARD/DISPLAY                      FAILED (extensions.at:1086)
+129: Environment/Argument variable                   ok
+130: DECIMAL-POINT is COMMA (1)                      ok
+131: DECIMAL-POINT is COMMA (2)                      ok
+132: DECIMAL-POINT is COMMA (3)                      ok
+133: DECIMAL-POINT is COMMA (4)                      ok
+134: DECIMAL-POINT is COMMA (5)                      ok
+135: 78 Level (1)                                    ok
+136: 78 Level (2)                                    ok
+137: 78 Level (3)                                    ok
+138: Unreachable statement                           ok
+139: RETURN-CODE moving                              ok
+140: RETURN-CODE passing                             ok
+141: RETURN-CODE nested                              ok
+142: FUNCTION ABS                                    ok
+143: FUNCTION ACOS                                   ok
+144: FUNCTION ANNUITY                                ok
+145: FUNCTION ASIN                                   ok
+146: FUNCTION ATAN                                   ok
+147: FUNCTION CHAR                                   ok
+148: FUNCTION COMBINED-DATETIME                      ok
+149: FUNCTION CONCATENATE                            ok
+150: FUNCTION CONCATENATE with reference modding     ok
+151: FUNCTION COS                                    ok
+152: FUNCTION DATE-OF-INTEGER                        ok
+153: FUNCTION DATE-TO-YYYYMMDD                       ok
+154: FUNCTION DAY-OF-INTEGER                         ok
+155: FUNCTION DAY-TO-YYYYDDD                         ok
+156: FUNCTION E                                      ok
+157: FUNCTION EXCEPTION-FILE                         FAILED (functions.at:399)
+158: FUNCTION EXCEPTION-LOCATION                     FAILED (functions.at:434)
+159: FUNCTION EXCEPTION-STATEMENT                    FAILED (functions.at:464)
+160: FUNCTION EXCEPTION-STATUS                       FAILED (functions.at:494)
+161: FUNCTION EXP                                    ok
+162: FUNCTION FACTORIAL                              ok
+163: FUNCTION FRACTION-PART                          ok
+164: FUNCTION INTEGER                                ok
+165: FUNCTION INTEGER-OF-DATE                        ok
+166: FUNCTION INTEGER-OF-DAY                         ok
+167: FUNCTION INTEGER-PART                           ok
+168: FUNCTION LENGTH                                 ok
+169: FUNCTION LOCALE-DATE                            ok
+170: FUNCTION LOCALE-TIME                            ok
+171: FUNCTION LOCALE-TIME-FROM-SECONDS               ok
+172: FUNCTION LOG                                    ok
+173: FUNCTION LOG10                                  ok
+174: FUNCTION LOWER-CASE                             ok
+175: FUNCTION LOWER-CASE with reference modding      ok
+176: FUNCTION MAX                                    ok
+177: FUNCTION MEAN                                   ok
+178: FUNCTION MEDIAN                                 ok
+179: FUNCTION MIDRANGE                               ok
+180: FUNCTION MIN                                    ok
+181: FUNCTION MOD                                    ok
+182: FUNCTION NUMVAL                                 ok
+183: FUNCTION NUMVAL-C                               ok
+184: FUNCTION ORD                                    ok
+185: FUNCTION ORD-MAX                                ok
+186: FUNCTION ORD-MIN                                ok
+187: FUNCTION PI                                     ok
+188: FUNCTION PRESENT-VALUE                          ok
+189: FUNCTION RANGE                                  ok
+190: FUNCTION REM                                    ok
+191: FUNCTION REVERSE                                ok
+192: FUNCTION REVERSE with reference modding         ok
+193: FUNCTION SECONDS-FROM-FORMATTED-TIME            ok
+194: FUNCTION SECONDS-PAST-MIDNIGHT                  ok
+195: FUNCTION SIGN                                   ok
+196: FUNCTION SIN                                    ok
+197: FUNCTION SQRT                                   ok
+198: FUNCTION STANDARD-DEVIATION                     ok
+199: FUNCTION STORED-CHAR-LENGTH                     ok
+200: FUNCTION SUBSTITUTE                             ok
+201: FUNCTION SUBSTITUTE with reference modding      ok
+202: FUNCTION SUBSTITUTE-CASE                        ok
+203: FUNCTION SUBSTITUTE-CASE with reference mod     ok
+204: FUNCTION TAN                                    ok
+205: FUNCTION TRIM                                   ok
+206: FUNCTION TRIM with reference modding            ok
+207: FUNCTION UPPER-CASE                             ok
+208: FUNCTION UPPER-CASE with reference modding      ok
+209: FUNCTION VARIANCE                               ok
+210: FUNCTION WHEN-COMPILED                          ok
+
+## ------------- ##
+## Test results. ##
+## ------------- ##
+
+ERROR: 208 tests were run,
+43 failed unexpectedly.
+2 tests were skipped.
+## -------------------- ##
+## run.log was created. ##
+## -------------------- ##
+
+Please send `tests/run.log' and all information you think might help:
+
+   To: <open-cobol-list@lists.sourceforge.net>
+   Subject: [OpenCOBOL 1.1] run: 10 11 12 13 14 15 16 17 20 22 23 26 28 29 30 31 32 33 48 56 60 82 83 84 87 90 100 101 102 108 110 116 117 118 119 120 126 127 128 157 158 159 160 failed
+
+
+You may investigate any problem if you feel able to do so, in which
+case the test suite provides a good starting point.  Its output may
+be found below `tests/run.dir'.
+
