@@ -1,0 +1,31 @@
+--- tests/jp-compat.orig
++++ tests/jp-compat
+@@ -11377,14 +11377,14 @@
+ $at_traceon; }
+ 
+ { $at_traceoff
+-$as_echo "$at_srcdir/abort-on-file-error.at:31: ./prog >& /dev/null"
++$as_echo "$at_srcdir/abort-on-file-error.at:31: ./prog > /dev/null 2>&1"
+ echo abort-on-file-error.at:31 >"$at_check_line_file"
+ 
+ if test -n "$at_traceon"; then
+-  ( $at_traceon; ./prog >& /dev/null ) >"$at_stdout" 2>"$at_stder1"
++  ( $at_traceon; ./prog > /dev/null 2>&1) >"$at_stdout" 2>"$at_stder1"
+   at_func_filter_trace $?
+ else
+-  ( :; ./prog >& /dev/null ) >"$at_stdout" 2>"$at_stderr"
++  ( :; ./prog > /dev/null 2>&1) >"$at_stdout" 2>"$at_stderr"
+ fi
+ at_status=$?
+ at_failed=false
+--- tests/jp-compat.src/abort-on-file-error.at.orig
++++ tests/jp-compat.src/abort-on-file-error.at
+@@ -28,7 +28,7 @@
+ ])
+ 
+ AT_CHECK([${COMPILE} prog.cob], [0])
+-AT_CHECK([./prog >& /dev/null], [1])
++AT_CHECK([./prog > /dev/null 2>&1], [1])
+ 
+ AT_CLEANUP
+ 

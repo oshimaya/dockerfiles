@@ -1,0 +1,26 @@
+--- libcob.h.orig
++++ libcob.h
+@@ -37,6 +37,7 @@
+ #include <libcob/strings.h>
+ #include <libcob/termio.h>
+ #include <libcob/intrinsic.h>
++#include <libcob/codegen.h>
+ 
+ #ifdef __cplusplus
+ }
+--- libcob/numeric.c.orig
++++ libcob/numeric.c
+@@ -30,12 +30,10 @@
+ /* Force symbol exports */
+ #define	COB_LIB_EXPIMP
+ 
++#define	COB_LIB_INCLUDE
+ #include "libcob.h"
+ #include "coblocal.h"
+ 
+-#define	COB_LIB_INCLUDE
+-#include "codegen.h"
+-
+ #define DECIMAL_NAN	-128
+ #define DECIMAL_CHECK(d1,d2) \
+   if (unlikely(d1->scale == DECIMAL_NAN || d2->scale == DECIMAL_NAN)) { \
