@@ -18,14 +18,4 @@
  fi
  at_status=$?
  at_failed=false
---- tests/jp-compat.src/abort-on-file-error.at.orig
-+++ tests/jp-compat.src/abort-on-file-error.at
-@@ -28,7 +28,7 @@
- ])
- 
- AT_CHECK([${COMPILE} prog.cob], [0])
--AT_CHECK([./prog >& /dev/null], [1])
-+AT_CHECK([./prog > /dev/null 2>&1], [1])
- 
- AT_CLEANUP
  
