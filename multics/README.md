@@ -7,10 +7,14 @@ This is my private work, not official.
 #How to use
 ## Build
 `` $ docker build -t dsp8m .``
+
 ## Run
 ### Preparation
-1.Get QuickStart_MR12.6e.zip
-2.Extract zip
+
+1. Get QuickStart_MR12.6e.zip
+
+2. Extract zip
+
 ### Start
 ```
 $ docker run --it -v /path/to/extract/QuickStart_MR12.6x:/multics -p 6180:6180 dsp8m boot
