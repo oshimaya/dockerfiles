@@ -17,7 +17,7 @@ Build opensoruce-cobol-1.5.0J and run tetsts/run script on Ubuntu 16.04 with GCC
 After run, it still remain in that container when specify -it.
 
 Please check log or source and debug it!
-#Costomize?
+#Customize?
 - Shared volume: /files : For using local distribution file and local patches. 
 for example, from hostdir:
 `` docker run -it -v /path/to/localfiles:/files osscobol-test test``
