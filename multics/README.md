@@ -36,7 +36,7 @@ Auto disconnect activated
 From another terminal:
 
 ```
-$ telnet localhost:6180
+$ telnet localhost 6180
 Trying localhost...
 Connected to locallhost.
 Escape character is '^]'.
