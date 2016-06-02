@@ -48,6 +48,9 @@ HSLA Port (d.h000,d.h001,d.h002,d.h003,d.h004,d.h005,d.h006,d.h007,d.h008,d.h009
 Line 0 connected as
 name:            d.h000
 attributes:      hardwired
+
+Multics MR12.6e: Installation and location (Channel d.h000)
+Load = 5.0 out of 90.0 units: users = 5, 06/02/16  0802.9 pst Thu
 ```
 # Stop
 I don't know, please docker kill :-)
