@@ -1,5 +1,5 @@
 #What is this?
-Dockernized Multics/dps-8/m simulator
+Dockerized Multics/dps-8/m simulator
 See DSP8m https://sourceforge.net/projects/dps8m/
 and Multics wiki http://swenson.org/multics_wiki/index.php?title=Main_Page
 #Notice
